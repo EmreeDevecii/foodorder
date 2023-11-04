@@ -1,0 +1,144 @@
+const menuler = [
+  {
+    ad: "whopper-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Et Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/whopper-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "double-whopper-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Et Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/double-whopper-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "triple-whopper-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Et Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/triple-whopper-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "kofteburger-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Et Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/kofteburger-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "double-kofteburger-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Et Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/double-kofteburger-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "king-chicken-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Tavuk Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/king-chicken-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "double-king-chicken",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Tavuk Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/double-king-chicken-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "chicken-royale-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Tavuk Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/chicken-royale-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "bean-burger-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Tavuk Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/bean-burger-menu.png?v=296",
+    desc: "",
+  },
+  {
+    ad: "fish-royale-menu",
+    ozellik: ["small", "medium", "mega"],
+    fiyat: [
+      {
+        small: 50,
+        medium: 60,
+        mega: 70,
+      },
+    ],
+    kategori: "Balık Menü",
+    img: "https://www.burgerking.com.tr/cmsfiles/products/fish-royale-menu.png?v=296",
+    desc: "",
+  },
+];
+
+export default menuler;
