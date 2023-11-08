@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: "Martian Mono", monospace;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -9,7 +10,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
 .bg-dark {
   background-color: #f49d1a !important ;
 }
