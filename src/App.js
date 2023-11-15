@@ -7,6 +7,8 @@ import CartPage from "./pages/CartPage";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import { useSelector } from "react-redux";
+import OrdersPage from "./pages/OrdersPage";
+import AdminPage from "./pages/AdminPage";
 
 function App() {
   const falanState = useSelector((state) => state.loginUserReducer);
@@ -19,6 +21,8 @@ function App() {
         <Route path="/sepet" element={<CartPage />} />
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/myorders" element={<OrdersPage />} />
+        <Route path="/admin/*" element={<AdminPage />} />
       </Routes>
     </div>
   );

@@ -20,6 +20,7 @@ function HomePage() {
     if (currentUser) {
       dispatch(getAllBurgers());
     } else {
+      dispatch(getAllBurgers());
       navigate("/login");
     }
   }, [currentUser]);

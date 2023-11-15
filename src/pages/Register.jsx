@@ -42,6 +42,7 @@ function Register() {
           showConfirmButton: false,
           timer: 1500,
         });
+        navigate("/login");
       } else {
         Swal.fire({
           icon: "error",

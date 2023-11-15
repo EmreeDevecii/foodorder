@@ -21,7 +21,7 @@ function Login() {
         password: password,
       };
       dispatch(loginUserAction(kullanici));
-      if (!error) {
+      if (success == true) {
         Swal.fire({
           position: "center",
           icon: "success",
